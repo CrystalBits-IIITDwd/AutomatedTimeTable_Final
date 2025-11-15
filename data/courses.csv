@@ -1,71 +1,118 @@
-Course Code,Course Title,Department,Semester,LTPSC,Faculty,Strength,Type,Section
------ SEM 1 CSE -----
-MA101,Calculus I,CSE,1,3-1-0-0-4,Dr. A Sharma,80,core,A
-PH101,Physics I,CSE,1,3-1-0-0-4,Dr. M Rao,80,core,A
-CS101,Programming I,CSE,1,3-0-2-0-5,Dr. K Verma,80,core,A
-HS101,English I,CSE,1,2-1-0-0-3,Dr. S Mehta,80,core,A
-EE101,Electrical Engineering,CSE,1,2-0-2-0-4,Dr. P Jha,80,core,A
-EL101,Creative Writing,CSE,1,3-0-0-0-2,Dr. R Singh,40,elective,A
-EL102,Digital Media,CSE,1,3-0-0-0-2,Dr. T Nair,40,elective,A
-MN101,Intro to Entrepreneurship,CSE,1,1-0-0-0-1,Dr. A Bose,100,minor,ALL
-
-MA101,Calculus I,CSE,1,3-1-0-0-4,Dr. A Sharma,80,core,B
-PH101,Physics I,CSE,1,3-1-0-0-4,Dr. M Rao,80,core,B
-CS101,Programming I,CSE,1,3-0-2-0-5,Dr. K Verma,80,core,B
-HS101,English I,CSE,1,2-1-0-0-3,Dr. S Mehta,80,core,B
-EE101,Electrical Engineering,CSE,1,2-0-2-0-4,Dr. P Jha,80,core,B
-EL101,Creative Writing,CSE,1,3-0-0-0-2,Dr. R Singh,40,elective,B
-EL102,Digital Media,CSE,1,3-0-0-0-2,Dr. T Nair,40,elective,B
-MN101,Intro to Entrepreneurship,CSE,1,1-0-0-0-1,Dr. A Bose,100,minor,ALL
-
------ SEM 3 CSE -----
-CS201,Algorithms,CSE,3,3-1-0-0-4,Dr. A Gupta,80,core,A
-CS202,Data Structures,CSE,3,3-1-0-0-4,Dr. R Nanda,80,core,A
-CS203,Operating Systems,CSE,3,3-0-2-0-5,Dr. P Shetty,80,core,A
-CS204,Database Systems,CSE,3,3-0-2-0-5,Dr. V Sharma,80,core,A
-HS201,Value Education,CSE,3,1-0-0-0-1,Dr. R Sinha,80,core,A
-EL201,Machine Learning Basics,CSE,3,3-0-0-0-3,Dr. T Iyer,50,elective,A
-EL202,Robotics Intro,CSE,3,3-0-0-0-3,Dr. K Das,50,elective,A
-MN201,Digital Marketing,CSE,3,1-0-0-0-1,Dr. L Arora,100,minor,ALL
-
-CS201,Algorithms,CSE,3,3-1-0-0-4,Dr. A Gupta,80,core,B
-CS202,Data Structures,CSE,3,3-1-0-0-4,Dr. R Nanda,80,core,B
-CS203,Operating Systems,CSE,3,3-0-2-0-5,Dr. P Shetty,80,core,B
-CS204,Database Systems,CSE,3,3-0-2-0-5,Dr. V Sharma,80,core,B
-HS201,Value Education,CSE,3,1-0-0-0-1,Dr. R Sinha,80,core,B
-EL201,Machine Learning Basics,CSE,3,3-0-0-0-3,Dr. T Iyer,50,elective,B
-EL202,Robotics Intro,CSE,3,3-0-0-0-3,Dr. K Das,50,elective,B
-MN201,Digital Marketing,CSE,3,1-0-0-0-1,Dr. L Arora,100,minor,ALL
-
------ SEM 5 CSE -----
-CS301,Networks,CSE,5,3-1-2-0-5,Dr. R Kulkarni,80,core,A
-CS302,Compiler Design,CSE,5,4-0-0-0-4,Dr. S Mohan,80,core,A
-CS303,Artificial Intelligence,CSE,5,3-1-0-0-4,Dr. H Bhatt,80,core,A
-EL301,Cloud Computing,CSE,5,3-0-0-0-3,Dr. K Rao,60,elective,A
-EL302,UI/UX Design,CSE,5,3-0-0-0-3,Dr. R Desai,60,elective,A
-MN301,Blockchain Applications,CSE,5,1-0-0-0-1,Dr. A Chatterjee,120,minor,ALL
-
-CS301,Networks,CSE,5,3-1-2-0-5,Dr. R Kulkarni,80,core,B
-CS302,Compiler Design,CSE,5,4-0-0-0-4,Dr. S Mohan,80,core,B
-CS303,Artificial Intelligence,CSE,5,3-1-0-0-4,Dr. H Bhatt,80,core,B
-EL301,Cloud Computing,CSE,5,3-0-0-0-3,Dr. K Rao,60,elective,B
-EL302,UI/UX Design,CSE,5,3-0-0-0-3,Dr. R Desai,60,elective,B
-MN301,Blockchain Applications,CSE,5,1-0-0-0-1,Dr. A Chatterjee,120,minor,ALL
-
------ SEM 3 DSAI -----
-DA201,Statistics,DSAI,3,3-1-0-0-4,Dr. S Chakraborty,80,core,
-DA202,Machine Learning,DSAI,3,3-0-2-0-4,Dr. P Dube,80,core,
-DA203,Neural Networks,DSAI,3,3-1-0-0-4,Dr. R Jain,80,core,
-DA204,Data Visualization,DSAI,3,2-0-2-0-3,Dr. S Kulkarni,80,core,
-EL401,Deep Learning Intro,DSAI,3,3-0-0-0-3,Dr. T Sen,40,elective,
-EL402,NLP Basics,DSAI,3,3-0-0-0-3,Dr. K Dutta,40,elective,
-MN401,AI Ethics,DSAI,3,1-0-0-0-1,Dr. Supriya M,100,minor,ALL
-
------ SEM 3 ECE -----
-EC201,Circuits I,ECE,3,3-1-0-0-4,Dr. A Patil,70,core,
-EC202,Signals & Systems,ECE,3,3-1-0-0-4,Dr. P Narayan,70,core,
-EC203,Digital Electronics,ECE,3,3-0-2-0-4,Dr. R Kamath,70,core,
-EC204,Analog Circuits,ECE,3,3-0-2-0-4,Dr. G Menon,70,core,
-EL501,VLSI Intro,ECE,3,3-0-0-0-3,Dr. J Thomas,40,elective,
-EL502,IoT Fundamentals,ECE,3,3-0-0-0-3,Dr. D Ramesh,40,elective,
-MN501,Robotics Ethics,ECE,3,1-0-0-0-1,Dr. S Nair,100,minor,ALL
+Course Code,Course Title,Department,Semester,LTPSC,Faculty,Strength,Type,Basket
+MA161,Statistics,CSE,1,3-0-0-0-2,Dr. Ramesh Adke,80,core,
+DS101,Introduction to DS and AI,CSE,1,3-0-0-0-2,Dr. Abdul Wahid,80,core,
+MA162,Probability,CSE,1,3-0-0-0-2,Dr. Chinmayananada,80,core,
+EC101,Digital Design,CSE,1,3-0-2-0-2,Dr. Prakash Pawar,80,core,
+CS161,Problem Solving through Programming,CSE,1,3-0-2-0-4,Dr. Sunil P V - Section A,80,core,
+HS161,English Language and Communication,CSE,1,3-0-0-0-3,Dr. Rajesh N S,80,core,
+PH151,Introduction to Quantum Physics,CSE,1,3-0-0-0-2,Prof. Ravishankar,80,elective,
+DS151,Linux for Engineers,CSE,1,3-0-0-0-2,Dr. Vivekraj,80,elective,
+CS101,Fundamentals of sensing and Control,CSE,1,3-0-0-0-2,Mr. Mallikarjun Kande,80,elective,
+HS157,Computational Musicology for Hindustani Music,CSE,1,3-0-0-0-1,Dr. Chandrika Kumar,80,elective,
+HS102,Kannada Kali-Nali,CSE,1,3-0-0-0-1,Dr. Anand B,80,elective,
+HS103,Leveraging IT for Social Good & CSR,CSE,1,3-0-0-0-2,Dr. Rajesh N S,80,elective,
+DE101,Basics of Design,CSE,1,3-0-0-0-2,Dr. Sandesh Phalke,80,elective,
+HS156,Holistic Personality Development,CSE,1,3-0-0-0-1,Dr. Rajesh N S,80,elective,
+CS151,Introduction to Cybersecurity,CSE,1,3-0-0-0-2,Dr. Girish Revadigar,80,elective,
+MA161,Statistics,ECE,1,3-0-0-0-2,Dr. Ramesh Adke,80,core,
+DS101,Introduction to DS and AI,ECE,1,3-0-0-0-2,Dr. Abdul Wahid,80,core,
+MA162,Probability,ECE,1,3-0-0-0-2,Dr. Chinmayananada,80,core,
+EC101,Digital Design,ECE,1,3-0-2-0-2,Dr. Prakash Pawar,80,core,
+CS161,Problem Solving through Programming,ECE,1,3-0-2-0-4,Dr. Amimesh Roy,80,core,
+HS161,Economics/IIIT Introduction to Quantum Physics,ECE,1,3-0-0-0-3,Prof. Ravishankar,80,core,
+PH151,Introduction to Quantum Physics,ECE,1,3-0-0-0-2,Prof. Ravishankar,80,elective,
+DS151,Linux for Engineers,ECE,1,3-0-0-0-2,Dr. Vivekraj,80,elective,
+CS101,Fundamentals of sensing and Control,ECE,1,3-0-0-0-2,Mr. Mallikarjun Kande,80,elective,
+HS157,Computational Musicology for Hindustani Music,ECE,1,3-0-0-0-1,Dr. Chandrika Kumar,80,elective,
+HS102,Kannada Kali-Nali,ECE,1,3-0-0-0-1,Dr. Anand B,80,elective,
+HS103,Leveraging IT for Social Good & CSR,ECE,1,3-0-0-0-2,Dr. Rajesh N S,80,elective,
+DE101,Basics of Design,ECE,1,3-0-0-0-2,Dr. Sandesh Phalke,80,elective,
+HS156,Holistic Personality Development,ECE,1,3-0-0-0-1,Dr. Rajesh N S,80,elective,
+CS151,Introduction to Cybersecurity,ECE,1,3-0-0-0-2,Dr. Girish Revadigar,80,elective,
+MA261,Differential Equations,CSE,3,3-1-0-0-2,Dr. Anand Barangi,80,core,
+MA262,Multivariate Calculus,CSE,3,3-1-0-0-2,Dr. Somen B,80,core,
+CS261,Operating System,CSE,3,3-0-0-0-4,Dr. Suneel V - Section A,80,core,
+CS262,Software design tools and techniques,CSE,3,2-0-2-0-3,Dr. Suneel V - Section A,80,core,
+CS263,Design & Analysis of Algorithms,CSE,3,3-0-2-0-4,Dr. Pratik P - Section A,80,core,
+CS264,Computer Networks,CSE,3,3-1-0-0-4,Dr. Prabhu Prasad B M,80,core,
+HS261,HSS (Ethics & Values) + Environmental Studies,CSE,3,2-1-1-0-0,TBD,80,core,
+EC251,Electronics System Design-I,CSE,3,2-0-0-0-2,Dr. Pankaj,80,elective,
+EC252,Introduction of RFIC Design,CSE,3,2-0-0-0-2,Dr. Rajesh Kumar,80,elective,
+CS253,Introduction to Embedded Signal Intelligence,CSE,3,2-0-0-0-2,Dr. Sibasankar Padhy,80,elective,
+EC254,Electronic Systems Engineering,CSE,3,2-0-0-0-2,Mr. Mallikarjun Kande,80,elective,
+CS152,Data Science with Python,CSE,3,2-0-0-0-2,Dr. Abdul Wahid,80,elective,
+ASD252,User Interactions and Experience Design,CSE,3,4-0-0-0-4,Dr. Sandesh P,80,elective,
+CS251,2D Computer Graphics,CSE,3,2-0-0-0-2,Dr. Vivekraj,80,elective,
+MA261,Differential Equations,ECE,3,3-1-0-0-2,Dr. Anand Barangi,80,core,
+MA262,Multivariable Calculus,ECE,3,3-1-0-0-2,Dr. Somen B,80,core,
+HS201,HSSTE,ECE,3,3-0-0-0-3,TBD,80,core,
+EC301,Random Process,ECE,3,3-1-0-0-2,Dr. Chinmayananada,80,core,
+EC302,Signals & Systems,ECE,3,3-1-0-0-3,Dr. Somen B,80,core,
+EC303,Semiconductor Devices,ECE,3,3-0-0-0-2,Dr. Pankaj Kumar,80,core,
+EC304,Analog Electronics Circuits,ECE,3,3-0-2-0-2,Dr. Rajesh Kumar,80,core,
+CS307,Machine Learning,ECE,3,3-1-0-0-4,Dr. Deepak KT,80,core,
+EC251,Electronics System Design-I,ECE,3,2-0-0-0-2,Dr. Pankaj,80,elective,
+EC252,Introduction of RFIC Design,ECE,3,2-0-0-0-2,Dr. Rajesh Kumar,80,elective,
+CS253,Introduction to Embedded Signal Intelligence,ECE,3,2-0-0-0-2,Dr. Sibasankar Padhy,80,elective,
+EC254,Electronic Systems Engineering,ECE,3,2-0-0-0-2,Mr. Mallikarjun Kande,80,elective,
+CS152,Data Science with Python,ECE,3,2-0-0-0-2,Dr. Abdul Wahid,80,elective,
+ASD252,User Interactions and Experience Design,ECE,3,4-0-0-0-4,Dr. Sandesh P,80,elective,
+CS251,2D Computer Graphics,ECE,3,2-0-0-0-2,Dr. Vivekraj,80,elective,
+MA262,Multivariate Calculus,DSAI,3,3-1-0-0-2,Dr. Somen B,80,core,
+MA261,Differential Equations,DSAI,3,3-1-0-0-2,Dr. Anand Barangi,80,core,
+DA261,Statistical Programming,DSAI,3,1-0-2-0-2,Dr. Ramesh Adke,80,core,
+DA262,Data Handling and Visualization,DSAI,3,2-0-2-0-3,Dr. Siddharth,80,core,
+CS304,Artificial Intelligence,DSAI,3,3-1-0-0-4,Dr. Animesh Chaturvedi,80,core,
+CS307,Machine Learning,DSAI,3,3-0-2-0-4,Dr. Utkarsh Khairare,80,core,
+HS301,Neuro-Linguistic Programming (NLP),DSAI,3,1-0-0-0-1,Dr. Manjunath K V,80,core,
+HS302,Leadership I,DSAI,3,1-0-0-0-1,Dr. Jagadeesha R Bhat,80,core,
+HS303,Sociology for Innovation,DSAI,3,1-0-0-0-1,Dr. Anushree Kini,80,core,
+HS304,Social Impact of Technology,DSAI,3,1-0-0-0-1,Dr. Rajesh Kumar,80,core,
+HS305,Holistic Personality Development,DSAI,3,1-0-0-0-1,Dr. Rajesh N S,80,core,
+EC251,Electronics System Design-I,DSAI,3,2-0-0-0-2,Dr. Pankaj,80,elective,
+EC252,Introduction of RFIC Design,DSAI,3,2-0-0-0-2,Dr. Rajesh Kumar,80,elective,
+CS253,Introduction to Embedded Signal Intelligence,DSAI,3,2-0-0-0-2,Dr. Sibasankar Padhy,80,elective,
+EC254,Electronic Systems Engineering,DSAI,3,2-0-0-0-2,Mr. Mallikarjun Kande,80,elective,
+CS152,Data Science with Python,DSAI,3,2-0-0-0-2,Dr. Abdul Wahid,80,elective,
+ASD252,User Interactions and Experience Design,DSAI,3,4-0-0-0-4,Dr. Sandesh P,80,elective,
+CS309,Statistics for Computer Science,CSE,5,3-1-0-0-4,Dr. Sunil C K - Section A,80,core,
+CS303,Computer Networks,CSE,5,3-1-2-0-5,Dr. Animesh Roy - Section A,80,core,
+CS304,Artificial Intelligence,CSE,5,3-1-0-0-4,Dr. Girish - Section B,80,core,
+HS101,Environmental studies,CSE,5,3-0-0-0-2,TBD,80,core,
+CS463,Parallel computing,CSE,5,4-0-0-0-4,Dr. Pramod,80,elective,
+CS308,Compiler Design,CSE,5,4-0-0-0-4,Dr. Pawan Kumar,80,elective,
+DS301,Graphs and Social Network,CSE,5,4-0-0-0-4,Dr. Utkarsh K,80,elective,
+CS366,Advanced Algorithm Design,CSE,5,4-0-0-0-4,Dr. Suvadip,80,elective,
+DS359,Full Stack Development,CSE,5,4-0-0-0-4,Dr. Manjunath K V,80,elective,
+EC355,Internet of Things,CSE,5,4-0-0-0-4,Dr. Prakash Pawar,80,elective,
+EC364,Semiconductor Device Modeling,CSE,5,4-0-0-0-4,Dr. Pankaj Kumar,80,elective,
+CS352,Cryptography & Information Security,CSE,5,4-0-0-0-4,Dr. Rajendra Hegadi,80,elective,
+ASD352,User Interactions and Experience Design,CSE,5,4-0-0-0-4,Dr. Sandesh P,80,elective,
+EC365,AI in Biomedical Signal Interpretation,CSE,5,4-0-0-0-4,Dr. Sibasankar Padhy,80,elective,
+DS302,Computer Communication Networks,DSAI,5,3-1-2-0-5,Dr. Shirshendu Layek,80,core,
+DS303,Algorithms and Artificial Intelligence,DSAI,5,3-1-0-0-4,Dr. Animesh Chaturvedi,80,core,
+CS307,Machine Learning,DSAI,5,3-0-2-0-4,Dr. Siddharth,80,core,
+CS463,Parallel computing,DSAI,5,4-0-0-0-4,Dr. Pramod,80,elective,
+CS308,Compiler Design,DSAI,5,4-0-0-0-4,Dr. Pawan Kumar,80,elective,
+DS301,Graphs and Social Network,DSAI,5,4-0-0-0-4,Dr. Utkarsh K,80,elective,
+CS366,Advanced Algorithm Design,DSAI,5,4-0-0-0-4,Dr. Suvadip,80,elective,
+DS359,Full Stack Development,DSAI,5,4-0-0-0-4,Dr. Manjunath K V,80,elective,
+EC355,Internet of Things,DSAI,5,4-0-0-0-4,Dr. Prakash Pawar,80,elective,
+EC364,Semiconductor Device Modeling,DSAI,5,4-0-0-0-4,Dr. Pankaj Kumar,80,elective,
+CS352,Cryptography & Information Security,DSAI,5,4-0-0-0-4,Dr. Rajendra Hegadi,80,elective,
+ASD352,User Interactions and Experience Design,DSAI,5,4-0-0-0-4,Dr. Sandesh P,80,elective,
+EC365,AI in Biomedical Signal Interpretation,DSAI,5,4-0-0-0-4,Dr. Sibasankar Padhy,80,elective,
+EC401,Digital Signal Processing,ECE,5,3-0-2-0-4,Dr. Sibasankar Padhy,80,core,
+EC402,Introduction to VLSI Design,ECE,5,3-1-0-0-4,Dr. Jagadish D N,80,core,
+CS263,Introduction to Algorithms,ECE,5,3-1-0-0-4,Dr. Jagadish K B,80,core,
+HS401,Happiness & Wellbeing,ECE,5,1-0-0-0-3,Dr. Chandrika Kumar,80,core,
+CS463,Parallel computing,ECE,5,4-0-0-0-4,Dr. Pramod,80,elective,
+CS308,Compiler Design,ECE,5,4-0-0-0-4,Dr. Pawan Kumar,80,elective,
+DS301,Graphs and Social Network,ECE,5,4-0-0-0-4,Dr. Utkarsh K,80,elective,
+EC366,Semiconductor Device Modelling,ECE,5,4-0-0-0-4,Dr. Pankaj Kumar,80,elective,
+CS366,Advanced Algorithm Design,ECE,5,4-0-0-0-4,Dr. Suvadip,80,elective,
+DS359,Full Stack Development,ECE,5,4-0-0-0-4,Dr. Manjunath K V,80,elective,
+EC355,Internet of Things,ECE,5,4-0-0-0-4,Dr. Prakash Pawar,80,elective,
+CS352,Cryptography & Information Security,ECE,5,4-0-0-0-4,Dr. Rajendra Hegadi,80,elective,
+ASD352,User Interactions and Experience Design,ECE,5,4-0-0-0-4,Dr. Sandesh P,80,elective,
+EC365,AI in Biomedical Signal Interpretation,ECE,5,4-0-0-0-4,Dr. Sibasankar Padhy,80,elective
