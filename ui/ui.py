@@ -165,21 +165,50 @@ class TimetableApp:
             return
 
         rows = self.timetable[branch][sem]
-        # rows already sorted by scheduler by day,slot; still, stable sort again:
-        # Convert day ordering from config
+
+        # -----------------------------
+        # Sorting Logic (FIXED)
+        # -----------------------------
         config = get_active_config()
-        day_order = {d:i for i,d in enumerate(config.get("working_days", []))}
-        slot_order = {f"{s[0]}-{s[1]}": idx for idx, s in enumerate(config.get("regular_slots", []) + config.get("minor_slots", []))}
+
+        # Build slot start-time map
+        def start_minutes(slot):
+            start, _ = slot.split("-")
+            hh, mm = map(int, start.split(":"))
+            return hh * 60 + mm
+
+        # Sort slots by start-time from ALL slot types
+        ordered_slots = (
+            config["lecture_slots"] +
+            config["tutorial_slots"] +
+            config["lab_slots"] +
+            config["minor_slots"]
+        )
+        ordered_slots = [f"{s[0]}-{s[1]}" for s in ordered_slots]
+        ordered_slots = sorted(ordered_slots, key=start_minutes)
+
+        day_index = {d: i for i, d in enumerate(config["working_days"])}
+        slot_index = {s: i for i, s in enumerate(ordered_slots)}
 
         def row_key(r):
-            d_idx = day_order.get(r["Day"], 999)
-            s_idx = slot_order.get(r["Slot"], 999)
-            return (d_idx, s_idx, r["Course"])
+            return (
+                day_index.get(r["Day"], 999),
+                slot_index.get(r["Slot"], 999),
+                r["Course"]
+            )
 
         rows_sorted = sorted(rows, key=row_key)
 
-        for idx, r in enumerate(rows_sorted):
-            self.tree.insert("", "end", values=(r["Day"], r["Slot"], r["Course"], r["Faculty"], r["Room"]))
+        # -----------------------------
+        # Insert into TreeView
+        # -----------------------------
+        for r in rows_sorted:
+            self.tree.insert(
+                "",
+                "end",
+                values=(r["Day"], r["Slot"], r["Course"], r["Faculty"], r["Room"])
+            )
+
 
     def export_csv(self):
         if not self.timetable:

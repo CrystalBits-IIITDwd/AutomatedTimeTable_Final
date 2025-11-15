@@ -137,6 +137,7 @@ class TimetableScheduler:
         """
         Choose a room that fits & free. rooms_already_used is a set (avoid scheduling multiple sessions
         of different electives into same room in grouped elective placement).
+        If no dedicated lab room fits a lab session, fall back to any large enough non-lab room.
         """
         if rooms_already_used is None:
             rooms_already_used = set()
@@ -152,6 +153,17 @@ class TimetableScheduler:
             bookings_for_room = [b for b in rooms_state.get(r["name"], []) if b['day'] == day]
             if self._room_free(bookings_for_room, cand_range):
                 candidates.append(r)
+        if not candidates:
+            # fallback: if this is a lab and no lab rooms available, allow any room that fits (classrooms)
+            if is_lab:
+                for r in classrooms:
+                    if r["name"] in rooms_already_used:
+                        continue
+                    if r["capacity"] < strength:
+                        continue
+                    bookings_for_room = [b for b in rooms_state.get(r["name"], []) if b['day'] == day]
+                    if self._room_free(bookings_for_room, cand_range):
+                        candidates.append(r)
         if not candidates:
             return None
         candidates.sort(key=lambda x: x["capacity"])
