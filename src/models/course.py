@@ -19,38 +19,36 @@ class Course:
     basket: str = None  # For electives
 
     def parse_ltpsc(self):
-        """Convert LTPSC into sessions with proper durations."""
+        """Convert LTPSC like '3-1-2-0-4' into integers (L,T,P,S,C)."""
+        if not self.LTPSC or not isinstance(self.LTPSC, str):
+            return 0, 0, 0, 0, 0
+        parts = [p.strip() for p in self.LTPSC.split('-')]
+        while len(parts) < 5:
+            parts.append("0")
         try:
-            L, T, P, S, C = [int(x) for x in self.LTPSC.split('-')]
-        except:
+            L, T, P, S, C = map(int, parts[:5])
+        except Exception:
             L, T, P, S, C = 0, 0, 0, 0, 0
-            
-        return {
-            "lectures": L,  # Number of lecture hours per week
-            "tutorials": T, # Number of tutorial hours per week  
-            "labs": P,      # Number of lab hours per week
-            "credits": C
-        }
+        return L, T, P, S, C
 
     def get_session_requirements(self):
-        """Get session requirements with proper durations."""
-        requirements = self.parse_ltpsc()
+        """
+        Get session requirements as a list of sessions where each session is
+        {"type": "Lecture"/"Tutorial"/"Lab", "duration": minutes}
+        Duration convention:
+            Lecture = 90 min (1.5 hr)
+            Tutorial = 60 min (1 hr)
+            Lab = 120 min (2 hr)
+        """
+        L, T, P, _, _ = self.parse_ltpsc()
         sessions = []
-        
-        # Lectures: 1 hour each
-        for i in range(requirements["lectures"]):
-            sessions.append({"type": "lecture", "duration": 60})
-            
-        # Tutorials: 1.5 hours each  
-        for i in range(requirements["tutorials"]):
-            sessions.append({"type": "tutorial", "duration": 90})
-            
-        # Labs: 2 hours each
-        for i in range(requirements["labs"]):
-            sessions.append({"type": "lab", "duration": 120})
-            
+        for _ in range(L):
+            sessions.append({"type": "Lecture", "duration": 90})
+        for _ in range(T):
+            sessions.append({"type": "Tutorial", "duration": 60})
+        for _ in range(P):
+            sessions.append({"type": "Lab", "duration": 120})
         return sessions
 
     def is_elective(self):
-        """Check if course is an elective."""
-        return self.course_type.lower() in ['elective', 'minor']
+        return str(self.course_type).strip().lower() in ['elective', 'minor']
